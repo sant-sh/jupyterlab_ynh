@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # JupyterLab for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/jupyterlab.svg)](https://ci-apps.yunohost.org/ci/apps/jupyterlab/) ![Working status](https://ci-apps.yunohost.org/ci/badges/jupyterlab.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/jupyterlab.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/jupyterlab)](https://ci-apps.yunohost.org/ci/apps/jupyterlab/)
+![Working status](https://apps.yunohost.org/badge/state/jupyterlab)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/jupyterlab)
 
 [![Install JupyterLab with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=jupyterlab)
 

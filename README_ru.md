@@ -5,7 +5,9 @@
 
 # JupyterLab для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/jupyterlab.svg)](https://ci-apps.yunohost.org/ci/apps/jupyterlab/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/jupyterlab.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/jupyterlab.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/jupyterlab)](https://ci-apps.yunohost.org/ci/apps/jupyterlab/)
+![Состояние работы](https://apps.yunohost.org/badge/state/jupyterlab)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/jupyterlab)
 
 [![Установите JupyterLab с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=jupyterlab)
 
