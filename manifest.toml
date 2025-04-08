@@ -10,7 +10,7 @@ description.fr = "Environnement de développement interactif pour notebooks"
 #https://pypi.org/project/jupyterlab/
 version = "4.2.5~ynh1"
 
-maintainers = ["kay0u"]
+maintainers = [""]
 
 [upstream]
 license = "BSD-3-Clause"

@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # JupyterLab voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/jupyterlab.svg)](https://ci-apps.yunohost.org/ci/apps/jupyterlab/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/jupyterlab.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/jupyterlab.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/jupyterlab)](https://ci-apps.yunohost.org/ci/apps/jupyterlab/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/jupyterlab)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/jupyterlab)
 
 [![JupyterLab met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=jupyterlab)
 
