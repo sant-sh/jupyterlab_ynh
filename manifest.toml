@@ -8,9 +8,9 @@ description.en = "Interactive development environment for notebooks"
 description.fr = "Environnement de développement interactif pour notebooks"
 
 #https://pypi.org/project/jupyterlab/
-version = "4.2.5~ynh1"
+version = "4.2.5~ynh2"
 
-maintainers = [""]
+maintainers = []
 
 [upstream]
 license = "BSD-3-Clause"
@@ -21,6 +21,7 @@ code = "https://github.com/jupyterhub/jupyterhub"
 
 [integration]
 yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
 
@@ -54,13 +55,13 @@ ram.runtime = "50M"
     default = true
 
 [resources]
-    #[resources.sources.main]
-    #url = "https://github.com/jupyterhub/jupyterhub/archive/refs/tags/4.1.5.tar.gz"
-    #sha256 = "750511c4956e2926625b1c9a6cc0e6e82e090a8b682e631c8117b2e104f94723"
+    [resources.sources.main]
+    url = "https://github.com/jupyterlab/jupyterlab/archive/refs/tags/v4.2.5.tar.gz"
+    sha256 = "2a67111b23a05aa8ff44a0f1663c983980471d24910157a0abbee06e808f4eb0"
     # Only used for autoupdate, code will checkout the commit
-    #prefetch = false
+    prefetch = false
 
-    #autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
@@ -68,21 +69,16 @@ ram.runtime = "50M"
     # Using /opt because /var/www has ACLs that prevent users to access it
     dir = "/opt/__APP__"
 
+    [resources.permissions]
+    main.url = "/"
+
     [resources.ports]
     main.default = 8080
     hub.default = 8081
     http_proxy.default = 8082
 
-    [resources.permissions]
-    main.url = "/"
-
     [resources.apt]
-    packages = [
-        "python3-dev",
-        "python3-pip",
-        "python3-venv",
-        "pipenv",
-    ]
+    packages = "python3-dev, python3-pip, python3-venv, pipenv"
 
     [resources.apt.extras.yarn]
     repo = "deb https://dl.yarnpkg.com/debian/ stable main"
