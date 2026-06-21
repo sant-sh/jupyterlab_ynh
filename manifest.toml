@@ -8,7 +8,7 @@ description.en = "Interactive development environment for notebooks"
 description.fr = "Environnement de développement interactif pour notebooks"
 
 #https://pypi.org/project/jupyterlab/
-version = "4.5.5~ynh1"
+version = "4.6.0~ynh1"
 
 maintainers = []
 
@@ -80,5 +80,5 @@ ram.runtime = "50M"
     packages = "python3-dev, python3-pip, python3-venv, pipenv"
 
     [resources.nodejs]
-    version = "22"
+    version = "24"
     
